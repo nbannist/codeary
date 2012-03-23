@@ -1,0 +1,50 @@
+application: webapp-prototypes
+version: codeiary
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /static/
+  static_dir: static
+
+- url: /robots\.txt
+  static_files: static/robots.txt
+  upload: static/robots.txt
+
+- url: /favicon\.png
+  static_files: static/images/favicon.png
+  upload: static/images/favicon.png
+
+- url: /apple-touch-icon\.png
+  static_files: static/images/apple-touch-icon.png
+  upload: static/images/apple-touch-icon.png
+  
+  # JavaScript
+- url: /js/(.*\.js)
+  static_files: static/scripts/js/\1
+  upload: static/scripts/js/(.*\.js)
+  
+- url: /js/(.*\.js)
+  static_files: static/scripts/js/libs/google-code-prettify/\1
+  upload: static/scripts/js/libs/google-code-prettify/(.*\.js)
+
+  # StyleSheets
+  
+  # CSS
+- url: /css/(.*\.css)
+  static_files: static/styles/css/\1
+  upload: static/styles/css/(.*\.css)
+  
+  #LESS
+- url: /less/(.*\.less)
+  static_files: static/styles/less/\1
+  upload: static/styles/less/(.*\.less)
+
+  # Images
+- url: /(.*\.(gif|png|jpg|jpeg))
+  static_files: static/images/\1
+  upload: static/images/(.*\.(gif|png|jpg|jpeg))
+
+- url: .*
+  script: main.py
