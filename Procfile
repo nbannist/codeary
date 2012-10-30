@@ -1,1 +1,1 @@
-web: python codeiary.py
+web: python codeary.py

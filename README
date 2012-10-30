@@ -1,10 +1,69 @@
-Codeiary
+Codeary
 --------
 
 Mission: To create a single place to find information on algorithms, functions,  recipes in different programming languages. Discuss them and their proper usage. Advantages and disadvantages in a given context.
 
 
 Ramblings On:
-The idea behind Codeiary is to have a place to post and discuss, code snippets. You could look for Python bubblesort algorithms. You could look for bubblesort algorithms of any language. You can attach your own private labels. You can present your benchmarking or various versions of sorting algorithms. Code can be changed but references must be able to reference specific versions. Doesn't make sense to say, "this code as a bug" unless the bug is still there. Author or Tester or user with enough Karma, can remove such messages, when necessary. 
+The idea behind Codeary is to have a place to post and discuss, code snippets. You could look for Python bubblesort algorithms. You could look for bubblesort algorithms of any language. You can attach your own private labels. You can present your benchmarking or various versions of sorting algorithms. Code can be changed but references must be able to reference specific versions. Doesn't make sense to say, "this code as a bug" unless the bug is still there. Author or Tester or user with enough Karma, can remove such messages, when necessary. 
+
+=================================================
+A place where programmers can exchange knowledge about:
+Programming languages (Javascript, Python, etc.),
+Programming concepts (closures),
+APIs (Google Maps),
+Algorithms (bubble sort w/Big O Notation),
+Design patterns (Factory Pattern)
+Frameworks (Flask)
+Dialects (Stackless Python)
+Libraries (jQuery)
+-------------------------------------------------
+Should make it easy to compare different versions of an algorithm (bubble-sort)
+Should make it easy to navigate documentation of a language, framework, library, or API
+Should make it easy to find sorting algorithms
+Should make it easy to a definitive (or close) answer to how to implement a closure in Javascript, 
+or the Factory Pattern in Java
+-------------------------------------------------
+How is it different from Stack Overflow?
+----------------------------------------
+@ Stack Overflow, you can ask a question about a problem you can can't find a definitive answer to elsewhere.
+
+@ Codeary, you can ask a question, which is a placeholder for the answer, such as you would find on Stack Overflow, but they need to be about programming languages and algorithms, not "how do I do such and such in Git" or something. More like, "How do I implement the bubble sort algorithm in language X".
+So the questions are a bit more fundamental that you could find on Stack Overflow. The idea is two-fold: help beginners and intermediate programmers with learning the ins and outs of a language and for intermediate to advanced programmers, a place to post and discuss algorithms such as 
+
+@ Codeary, the idea is to have a single place to document and learn about programming languages, their ins and outs, pitfalls, algorithms, associated libraries, APIs, etc. The first place you would go to have a programming language question answered. 
+
+Since there may be a bit of confusion as to what should be asked on Codeary and what should be asked on Stack Overflow, probably should have a way of marking a question as more appropriate for Stack Overflow, or maybe already answered on Stack Overflow.
+
+You don't ask questions on Codeary, you explore and add to the library.
+
+> Language X on Y Platform
+> 
+
+
+
+
+
+
+
+> "How can the Bubble Sort algorithm be implemented in Javascript"
+Algorithms > Tags > Javascript + Bubble Sort
+Search > "Bubble Sort Algorithm Javascript"
+
+> "How do I loop through a JSON object?"
+> Algorithms > Tags > Javascript + JSON + Loop + Iterate
+
+> "Do I need String.substr() or String.substring() method?"
+Documentation > Javascript > String > Methods > substring()
+Documentation > Javascript > String > Methods > substr()
+=================================================
+Tags can carry multiple words (but only show one):
+ex: Javascript = Javascript & JavaScript & Java Script
+ex: JSON = JSON & JavaScript Object Notation
+ex: Iterate = Iterate & Loop
+
+
+
+
 
 
